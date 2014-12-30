@@ -1,0 +1,13 @@
+# Site settings
+title: miklos.blog
+email: miklos.martin@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a father, a husband, and a programmer.<br>
+  I will write about books&blogs I read, things I learn, mistakes I make.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: miklosmartin
+github_username:  miklos-martin
+
+# Build settings
+markdown: kramdown
