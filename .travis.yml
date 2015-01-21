@@ -1,0 +1,7 @@
+language: bash
+
+before_script:
+  - apt-get install aspell
+
+script:
+  - spell/check.sh
