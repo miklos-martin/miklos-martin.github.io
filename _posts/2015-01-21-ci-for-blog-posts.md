@@ -49,6 +49,7 @@ So I wrote a little [shell script][spell check] and put a [.travis.yml][travis] 
 How cool is that? I should have thought about it by myself.
 
 I'm planning to add
+
 - grammar check
 - broken links check
 - image alt tags and size checks after I've added at least one image
