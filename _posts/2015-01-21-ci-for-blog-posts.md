@@ -37,13 +37,13 @@ So I could strike through the whole list, and started to think of...
 
 ### What do I need exactly?
 
-Spellcheck.
+Spell check.
 
-English is my second language, and I'm not nearly as good at speaking or writing it as I want to be. Spellcheck would be nice.
+English is my second language, and I'm not nearly as good at speaking or writing it as I want to be. Spell check would be nice.
 
-Google told me there is a command line utility called [aspell]. It is very nice by the way, I was impressed. It can do it's job in multiple languages, can use custom dictionaries, and shipped with my distro by default.
+Google told me there is a command line utility called [Aspell]. It is very nice by the way, I was impressed. It can do it's job in multiple languages, can use custom dictionaries, and shipped with my distro by default.
 
-So I wrote a little [shell script][spellcheck] and put a [.travis.yml][travis] together, and voilà, I have _Continuous Integration for my blog posts_.
+So I wrote a little [shell script][spell check] and put a [.travis.yml][travis] together, and voilà, I have _Continuous Integration for my blog posts_.
 
 How cool is that? I should have thought about it by myself. The image alt tags and size check has still yet to be done, and it would also be nice to ensure there are no broken links in the posts, but I'm fine with this little setup for now.
 
@@ -51,6 +51,6 @@ Thank you GitHub, and Zach Holman.
 
 [github posts]: http://zachholman.com/posts/how-github-writes-blog-posts/
 [gist]: https://gist.github.com/holman/4bd27ba3950ee2ee79c3
-[aspell]: http://aspell.net/
-[spellcheck]: https://github.com/miklos-martin/miklos-martin.github.io/blob/master/spell/check.sh
+[Aspell]: http://aspell.net/
+[spell check]: https://github.com/miklos-martin/miklos-martin.github.io/blob/master/spell/check.sh
 [travis]: https://github.com/miklos-martin/miklos-martin.github.io/blob/master/.travis.yml 

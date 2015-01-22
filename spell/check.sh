@@ -1,6 +1,6 @@
 #!/bin/bash
 
-aspell --lang=en create master ./spell/words.rws < ./spell/words || exit 1
+aspell --lang=en --encoding=utf8 create master ./spell/words.rws < ./spell/words || exit 1
 
 errors=$(find . -type f | grep .md | xargs cat | aspell --add-extra-dicts=./spell/words.rws list)
 if [ ! -z "$errors" ];then
