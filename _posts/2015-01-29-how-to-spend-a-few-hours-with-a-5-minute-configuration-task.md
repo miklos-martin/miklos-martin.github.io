@@ -4,7 +4,7 @@ title: "How to spend a few hours with a 5 minute configuration task"
 date: 2015-01-29
 categories: wasting time
 ---
-I needed to add CORS support to a server. OK, I've heard of it, I just set some Allow-Whatever headers and I'm done. 5 minutes.
+I needed to add CORPS support to a server. OK, I've heard of it, I just set some Allow-Whatever headers and I'm done. 5 minutes.
 
 The server is running nginx, and php-fpm to serve a PHP application. I thought I won't bother with these settings in the application code, I can do this in the nginx config.
 I fired up google, searched for it a bit, and almost immediately found what I needed: [this example configuration][cors-nginx]
@@ -52,7 +52,7 @@ location /if-try-files {
 }
 </pre>
 
-I can comfirm: if indeed is evil.
+I can confirm: if indeed is evil.
 
 [cors-nginx]: http://enable-cors.org/server_nginx.html
 [if is evil]: http://wiki.nginx.org/IfIsEvil
