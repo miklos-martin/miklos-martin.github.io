@@ -4,7 +4,7 @@ title: "How to spend a few hours with a 5 minute configuration task"
 date: 2015-01-29
 categories: wasting time
 ---
-I needed to add Cross-Origin Resource Shasring - a.k.a. CORS - support to a server. OK, I've already heard of it, I just set some `Access-Control-Whatever` headers and I'm done. 5 minutes.
+I needed to add Cross-Origin Resource Sharing - a.k.a. CORS - support to a server. OK, I've already heard of it, I just set some `Access-Control-Whatever` headers and I'm done. 5 minutes.
 
 The server is running nginx, and php-fpm to serve a PHP application. I thought I won't bother with these settings in the application code, I can do this in the nginx config.
 I fired up google, searched for it a bit, and almost immediately found what I needed: [this example configuration][cors-nginx]
@@ -28,7 +28,7 @@ location / {
 
 I'm not going to insert here what happened after I copied and pasted that huge example. I just modified the relevant parts, changed the regex to match the correct domain, added some extra headers and stuff.
 
-The `OPTIONS` request went well... well, not so well at first, that was the point I included some extra allowed headers. But afterwards my application has stopped working. After a while I figured out that the problem occured if the `Origin` header was set, and matched the regex specified at the beginning.
+The `OPTIONS` request went well... well, not so well at first, that was the point I included some extra allowed headers. But afterwards my application has stopped working. After a while I figured out that the problem occurred if the `Origin` header was set, and matched the regex specified at the beginning.
 I got `404` for every request.
 
 WTF?
@@ -56,7 +56,7 @@ Indeed.
 
 Dear reader, if you are about to write any if statements in you nginx configuration, I kindly suggest you to read those gotchas. I was surprised.
 
-By the way, I ended up removing all the `if`-s, except one: the check for `OPTIONS` request method. I left that in, because it returns with a `204` response and I dont need the `try_files` afterwards. I put `Access-Control-Allow-Origin` and `Access-Control-Alow-Credentials` headers on every response. It works, but I don't like it. It's just a test server behind a firewall anyway, I will figure out something more elegant for production.
+By the way, I ended up removing all the `if`-s, except one: the check for `OPTIONS` request method. I left that in, because it returns with a `204` response and I don't need the `try_files` afterwards. I put `Access-Control-Allow-Origin` and `Access-Control-Allow-Credentials` headers on every response. It works, but I don't like it. It's just a test server behind a firewall anyway, I will figure out something more elegant for production.
 
 Another note for first-timers: check your actual pre-flight `OPTIONS` requests to see what headers, methods etc do you need exactly.
 

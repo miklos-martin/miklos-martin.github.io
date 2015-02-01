@@ -1,3 +1,4 @@
 _site/
 .sass-cache/
 spell/words.rws
+*.md.bak
