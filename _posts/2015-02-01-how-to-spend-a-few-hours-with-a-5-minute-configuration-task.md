@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to spend a few hours with a 5 minute configuration task"
-date: 2015-01-29
+date: 2015-02-01
 categories: wasting time
 ---
 I needed to add Cross-Origin Resource Sharing - a.k.a. CORS - support to a server. OK, I've already heard of it, I just set some `Access-Control-Whatever` headers and I'm done. 5 minutes.
