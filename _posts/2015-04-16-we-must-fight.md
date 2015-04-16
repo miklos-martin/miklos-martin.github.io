@@ -13,7 +13,7 @@ Due to different events, the users should see automatic posts, such as
 Yes, we are working on a social site... in 2015... I know. At least we can always check how facebook does the things :)
 
 ## The thing
-Due to a design flaw on my side, concurrency, and the __near__ realtime nature of ElasticSearch there were duplications.
+Due to a design flaw on my side, concurrency, and the __near__ real-time nature of ElasticSearch there were duplications.
 
 We had already written a method finding all matching posts, and wrote the one that clears the results, leaving only one behind.
 We were struggling to name the method, which wraps the two. Its job is to load 0 or 1 existing post. If the finder finds more than one, it should call the clearer method.
