@@ -11,3 +11,10 @@ github_username:  miklos-martin
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      author: miklos
