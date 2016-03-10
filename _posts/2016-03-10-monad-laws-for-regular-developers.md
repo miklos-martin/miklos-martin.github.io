@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Monad laws for regular developers"
-date: 2016-03-08
+date: 2016-03-10
 categories: learn fp
 ---
 
