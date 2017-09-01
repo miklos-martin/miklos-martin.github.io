@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Type classes? Roll your own!"
+title: "Typeclasses? Roll your own!"
 categories: learn fp
 ---
 
@@ -46,7 +46,7 @@ trait Database {
 Very well, but now all my implementations, the usages of them, and all my tests need to be updated as well. Also, the tests now became asynchronous and that is bad. In my experience, it is always harder, more inconvenient and error prone.
 
 We can do better! What if we found a way to abstract over the particular type constructor that this trait works with?
-So instead of hard coding `Future`, we can use whatever else type constructor we fancy. We can make it a type class.
+So instead of hard coding `Future`, we can use whatever else type constructor we fancy. We can make it a typeclass.
 
 ```scala
 trait Database[F[_]] {
