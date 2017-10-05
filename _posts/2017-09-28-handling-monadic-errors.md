@@ -251,6 +251,9 @@ updateUser(1, "John")
 
 So, whenever you find yourself wrapping your types with `Either` or `Try` in parameterized type constructors just to deal with errors, I strongly encourage you try `MonadError` instead. It's just so much simpler to deal with.
 
+---
+
+
 [last post]: /learn/fp/2017/08/31/typeclasses-roll-your-own.html
 [kind projector compiler plugin]: https://github.com/non/kind-projector
 [@jserranohidalgo]: https://github.com/jserranohidalgo
