@@ -121,7 +121,7 @@ proveTypesAreIsomorphic[Either[Unit, String], Option[String]].check
 // + OK, passed 100 tests.
 ```
 
-That was fun, next time we will have a look at products, coproducts and the algebra of types. And we will rely heavily on isomorphisms.
+That was fun, [next time] we will have a look at products, coproducts and the algebra of types. And we will rely heavily on isomorphisms.
 
 
 [Bartosz Milewski's series on the topic]: https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/
@@ -137,3 +137,4 @@ That was fun, next time we will have a look at products, coproducts and the alge
 [monoid]: /images/category-theory/monoid_as_category.jpg
 [isomorphism]: /images/category-theory/isomorphism.jpg
 [definition of Isomorphism in my repo]: https://github.com/miklos-martin/category-theory-adventures/blob/master/src/main/scala/Isomorphism.scala
+[next time]: /learn/fp/category-theory/2018/02/01/adventures-in-category-theory-the-algebra-of-types.html
