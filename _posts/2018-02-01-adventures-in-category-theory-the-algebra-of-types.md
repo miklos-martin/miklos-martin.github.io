@@ -294,7 +294,7 @@ l(a) = 1 + (a * l(a))
      = 1 + a + a*a * (1 + a * l(a))
      = 1 + a + a*a + a*a*a * l(a))
 ```
-And so on, and so on. We have defined all lists possible. Isn't it beautiful?
+And so on, and so on. Isn't it beautiful?
 
 Next time, we will have a look at functors, stay tuned!
 
