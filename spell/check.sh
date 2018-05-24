@@ -2,7 +2,7 @@
 
 aspell --lang=en --encoding=utf-8 create master ./spell/words.rws < ./spell/words || exit 1
 
-errors=$(find . -type f | grep .md | xargs cat | aspell --add-extra-dicts=./spell/words.rws list)
+errors=$(find . -type f | grep '\.md' | xargs cat | aspell --add-extra-dicts=./spell/words.rws list)
 if [ ! -z "$errors" ];then
     cat <<EOF
 Mispelled words detected, run aspell interactively to fix them, or include the words in your dict.
