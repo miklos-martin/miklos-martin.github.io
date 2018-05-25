@@ -190,4 +190,16 @@ functors
 REPL
 aXunit
 subtype
-
+Tagless
+tagless
+hardcoding
+ToResponseMarshallable
+JSON
+IntNumber
+ToResponseMarshaller
+Marshallable
+marshaller
+marshalled
+futureMarshaller
+tryMarshaller
+reimplement
