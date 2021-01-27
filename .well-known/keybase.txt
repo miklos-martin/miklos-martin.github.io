@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/miklosmartin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://miklos-martin.github.io
+  * I am miklosmartin (https://keybase.io/miklosmartin) on keybase.
+  * I have a public key ASBq12INgxPyxg5VT8nge7EnhYce-AN_oPgAe8SJh9JNpwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012083254209c2577a7ba402a2a83adfc4e4c362dd47f98a20809f5f511b5eb37a7d0a",
+      "host": "keybase.io",
+      "kid": "01206ad7620d8313f2c60e554fc9e07bb12785871ef8037fa0f8007bc48987d24da70a",
+      "uid": "1491c1d5675fe2ddcbfe1f81fb9bdc19",
+      "username": "miklosmartin"
+    },
+    "merkle_root": {
+      "ctime": 1611744208,
+      "hash": "f08442863649e73b741b3bf5bb8b7172d37d47329df06afe9b7e308d80bf8e67972eb5295277de895f9e211f11f5f9f9893e4ee5ca37014fa3b122f0c223f890",
+      "hash_meta": "a929ea09305d2d304eaaaff18ae1182dd453e6de0fea4e060196332190c1aa7a",
+      "seqno": 18921389
+    },
+    "service": {
+      "entropy": "fX6vewRrDKxTa57mqRQLXVHv",
+      "hostname": "miklos-martin.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1611744276,
+  "expire_in": 504576000,
+  "prev": "c03624af95b615d00b6ea48b7a905618b1911d2cb78f41d46e9c2ba3a64050d5",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgatdiDYMT8sYOVU/J4HuxJ4WHHvgDf6D4AHvEiYfSTacKp3BheWxvYWTESpcCDMQgwDYkr5W2FdALbqSLepBWGLGRHSy3j0HUbpwro6ZAUNXEIIkau88t41YjQvJL/l4hWMaypy1KvOLImN4MSXzIc7cdAgHCo3NpZ8RAPbhb+IHdfAk8UuKE0C58VIbOpYC3bfZX4Tl1/aEbJRJsZdFC95L3wdKeE+tBsRpUKDDfgOH7mxciQ5LWxmAeDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJTKZ5WSXwzEVljVgYYyrpJMlYtdsoInhYkLQBJk5Tako3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/miklosmartin
+
+==================================================================
